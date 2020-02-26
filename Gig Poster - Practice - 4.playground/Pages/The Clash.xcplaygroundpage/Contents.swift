@@ -41,7 +41,21 @@ canvas.fillColor = orange
 
 canvas.drawRectangle(at: Point(x: 0, y: 0), width: 400, height: 600)
 
+// Change the axes so it's anchored in the center of the white diamonds
+canvas.translate(to: Point(x: 225, y: 375))
 
+// Use thicc borders to make diamonds
+canvas.drawShapesWithBorders = true
+canvas.drawShapesWithFill = true
+
+canvas.borderColor = offWhite
+canvas.fillColor = offWhite
+
+var DiamondVertices: [Point] = []
+DiamondVertices.append(Point(x: 0, y: 10))
+DiamondVertices.append(Point(x: 10, y: 0))
+DiamondVertices.append(Point(x: 0, y: 20))
+DiamondVertices.append(Point(x: 240, y: 0))
 /*:
  ## Use Source Control
  
