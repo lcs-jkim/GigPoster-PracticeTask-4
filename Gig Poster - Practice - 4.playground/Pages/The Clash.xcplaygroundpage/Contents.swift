@@ -33,6 +33,14 @@ let black = Color(hue: 0, saturation: 100, brightness: 0, alpha: 100)
 
 // Begin your work below...
 
+canvas.drawShapesWithBorders = false
+canvas.drawShapesWithFill = true
+
+// Make the background orange
+canvas.fillColor = orange
+
+canvas.drawRectangle(at: Point(x: 0, y: 0), width: 400, height: 600)
+
 
 /*:
  ## Use Source Control
