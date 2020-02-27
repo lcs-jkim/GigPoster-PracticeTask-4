@@ -53,10 +53,10 @@ canvas.borderColor = offWhite
 canvas.fillColor = offWhite
 
 var DiamondVertices: [Point] = []
-DiamondVertices.append(Point(x: 0, y: 10))
-DiamondVertices.append(Point(x: 10, y: 0))
-DiamondVertices.append(Point(x: 0, y: -10))
-DiamondVertices.append(Point(x: -10, y: 0))
+DiamondVertices.append(Point(x: 0, y: 15))
+DiamondVertices.append(Point(x: 15, y: 0))
+DiamondVertices.append(Point(x: 0, y: -15))
+DiamondVertices.append(Point(x: -15, y: 0))
 
 canvas.drawCustomShape(with: DiamondVertices)
 /*:
